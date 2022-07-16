@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" ",
     "build": "echo 'building server' ",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Avinash",
   "license": "ISC",
