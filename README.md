@@ -1,5 +1,5 @@
 # Socket_Chat_App
-##[Link to Website ](https://avichat.azurewebsites.net/)
+## [https://avichat.azurewebsites.net/ ](https://avichat.azurewebsites.net/) ##
 A Chat App using Socket.io
 
 Socket.IO is composed of two parts:
