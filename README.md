@@ -10,8 +10,8 @@ Clone or Download the app and from command line go to app folder and start serve
 I have modified this app to use Azure DevOps and Azure App Service.
 
 Steps to Create Azure Pipeline:
-A-> Go to  https://dev.azure.com/{your_username}
-B-> Create a new Project (AviChat)
+- Go to  https://dev.azure.com/{your_username}
+- Create a new Project (AviChat)
 C-> Create Azure Repository/Github Repository and push your code from local system
 D-> Create Pipeline. Select Azure Repo or Github Repo where your code exist.It will create a YAML file.Click on Save and Run.Here if you get any build error then check logs and fix the issue. Eg. If Node.js app then mostly you will add build script in package.json.
 E-> Create Release Pipeline. Select template Deploy Node.js app on Web Server.Here you will have Stage. Give Development/Production as your wish.
