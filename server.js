@@ -7,7 +7,7 @@ var http = require('http');
 app.use(express.static(__dirname + '/public'));
 
 var server = http.createServer(app);
-const PORT = 3000||process.env.PORT;
+const PORT = process.env.PORT||3000;
 var users = {};
 
 const socketIO = require('socket.io');
